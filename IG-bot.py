@@ -13,13 +13,6 @@ password_input = browser.find_element_by_css_selector("input[name='password']")
 username_input.send_keys("Tu usuario")
 password_input.send_keys("Tu contraseña")
 
-
-#file = open("cred.txt", mode='r')
-#arr = file.readlines()
-
-# username_input.send_keys(arr[0])
-# password_input.send_keys(arr[1])
-
 login_button = browser.find_element_by_xpath("//button[@type='submit']")
 login_button.click()
 
