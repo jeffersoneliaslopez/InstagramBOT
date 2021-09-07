@@ -28,7 +28,7 @@ not_now_button = browser.find_element_by_xpath(
     "/html/body/div[4]/div/div/div/div[3]/button[2]")
 not_now_button.click()
 
-# Inicio dar click a perfil y realizar
+# Inicio dar click a cuenta y empezar
 
 # final
 
